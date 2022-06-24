@@ -1,22 +1,20 @@
 # mistakes-in--web-design
 #index.html
 <html>
-     <head>
-          <title>Ошибки в веб-дизайне</title>
-          <link rel="stylesheet" href="style.css">
-     </head>
      <body>
+          <p class="logotip"><span class="oran">Молодец! < </span>Webbing<span class="oran"> > </span></p>
           <h1>Ошибки в веб-дизайне</h1>
+          <h4>Здесь можно узнать о некоторых ошибках в веб-дизайне и увидеть их примеры. Если вы будете соблюдать эти правила, то ваш сайт станет немного лучше</h4>
           <article>
           <div>
                <p class="side">Новое обновление в игре! <br><span class="bside">больше врагов!</span><br><span class="cside">больше предметов!</span><br><span class="dside">تنةهف نتقبصلاض</span></p>
-               <p class="vine">№1:<b>МНОГО ЦВЕТОВ И СТИЛЕЙ</b> <br>Для выделения частей сайта не нужно много цветов, ведь они путают пользователей и не позваляют выделить главные части. Достаточно 1 основного цвета и 1-2 для выделения. Тоже самое со стилями текста, но они не так сильно путают</p>
+               <p class="vine">№1:<b>МНОГО ЦВЕТОВ И СТИЛЕЙ</b> <br>Для выделения частей сайта не нужно много цветов, ведь они путают пользователей и не позваляют выделить главные части. Достаточно 1 основного цвета и 1-2 для <span class="orang">выделения</span>. Тоже самое со стилями текста, но они не так сильно путают</p>
           </div>
           </article>
           <article>
           <div>
                <div class="wew">
-               <p>Как похудеть? Всё просто! Нужно выполнить следующие действия</p>
+               <p><span class="uuu">Как похудеть?</span> <br>Всё просто! Нужно выполнить следующие действия</p>
                <p class="wiw">Ешьте 2 раза в день</p>
                <p class="waw">Не ходите в "фаст фуд"</p>
                </div>
@@ -35,106 +33,13 @@
           </article>
           <article>
           <div>
-               <
-               <p>№4:<b>ЛОГОТИП</b> <br>Логотип задает стиль сайту. Например, если в логотипе есть закругленые края, то большая часть текста не должна быть с резким шрифтом </p>
+               <p class="logo"><span class="oran"> < </span>Webbing<span class="oran"> > </span></p>
+               <p class="ligo"><i>Здесь вы узнаете многое о программировании</i></p>
+               <p class="suka">№4:<b>ЛОГОТИП</b> <br>Логотип задает стиль сайту. Например, если в логотипе есть закругленые края, то большая часть текста не должна быть с резким шрифтом </p>
           </div>
           </article>
+          <h4>Сайты других людей по этой теме:</h4>
+          <a href="https://upsales.com.ua/posts/20-oshibok-nachinayushhego-veb-dizajjnera">https://upsales.com.ua/posts/20-oshibok-nachinayushhego-veb-dizajjnera</a>
+          <a href="https://tilda.education/design-mistakes">https://tilda.education/design-mistakes</a>
      </body>
 </html>
-
-#style.css
-body {
-    font-family:sans-serif;
-    background-color: black;
-}
-
-h1 {
-    text-align: center;
-    color: white;
-}
-
-p {
-    float: right;
-}
-
-article {
-    height: 220px;
-    width: 400px;
-    background-color: lightgrey;
-    margin-top: 25px;
-    position: relative;
-    display: flex;
-}
-
-div:hover {
-    background-color: white;
-    transform: translateX(550px);
-    transition:0.5s ease-in-out ;
-}
-
-.side {
-    position: relative;
-    right:660px ;
-    text-align: center;
-    color: red;
-    font-family: fantasy;
-}
-
-.bside {
-    color: green;
-    margin-top: 10px;
-    font-family: monospace;
-}
-
-.cside {
-    color: #FFEE40;
-    margin-top:10px;
-    font-family: cursive;
-}
-
-.dside {
-    color: #4380D3;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.vine {
-    position: relative;
-    bottom: 100px;
-    left: 5px;
-}
-
-.wiw {
-    margin-top: 0px;
-    text-align: left;
-    position: relative;
-    right: 247px;
-}
-
-.waw {
-    margin-top: 100px;
-    text-align: left;
-    position: relative;
-    right: 70px;
-}
-
-.wew {
-    position: relative;
-    right: 540px;
-}
-
-.vini {
-    position: relative;
-    bottom: 190px;
-    left: 5px;
-}
-
-.blyat {
-    float: left;
-    position: relative;
-    bottom:130px ;
-}
-.ten {
-    position: relative;
-    right: 540px;
-}
-
