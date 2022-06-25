@@ -21,6 +21,7 @@ article {
     display: flex;
     border: 5px solid #FF7600;
     border-radius: 20px;
+    box-shadow:2px 2px 20px #FF7600 ;
 }
 
 div:active {
