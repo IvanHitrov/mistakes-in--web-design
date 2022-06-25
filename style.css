@@ -105,6 +105,7 @@ div:active {
 .oran {
     color: #FF7600;
     font-size: 35px;
+    box-shadow:2px 2px 20px #FF7600;
 }
 
 .logo {
